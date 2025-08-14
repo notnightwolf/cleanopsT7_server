@@ -9,6 +9,8 @@ This patch is designed to be inclusive, allowing players who spoof their DLCs to
 
 ***Important Note:*** To make your server visible in the `cleanopsT7` server browser and to utilize our custom database for ban management, you must contact us on **Discord** to obtain a unique **API key**. Without this key, your server will only be discoverable through the Black Ops 3 Mod Tools Server Browser. 
 
+- The server will automatically restart itself if it crashes with an exception. An `exceptionlog` file will be created inside the `cleanops` folder.
+
 ## Installation
 -   Open your Steam client, navigate to Library, and under the Tools tab,<br>
     find and download **Call of Duty: Black Ops III - Unranked Dedicated Server**.
