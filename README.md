@@ -31,6 +31,7 @@ This patch is designed to be inclusive, allowing players who spoof their DLCs to
 The `config.json` file allows you to customize various settings for your `cleanopsT7_server` instance. Here is a breakdown of the available options:
 ```
 {
+  "anti_spoof": false,
   "api_key": "",
   "live_steam_server_description": "This is a server",
   "live_steam_server_name": "Test Server",
@@ -44,6 +45,8 @@ The `config.json` file allows you to customize various settings for your `cleano
   "tempban_duration": "60"
 }
 ```
+- `anti_spoof`: If set to `true`, players will be forced to join solo to prevent others from spoofing their SteamID64 and bypassing ban management.
+
 - `api_key`: This is the unique key you receive from us on Discord. It is required to make your server visible inside the `cleanopsT7` server browser and to get access to our ban management database.
 
 - `live_steam_server_description`: The description that will appear in the server browser.
