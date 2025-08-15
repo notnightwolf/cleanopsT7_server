@@ -64,7 +64,7 @@ The `config.json` file allows you to customize various settings for your `cleano
 
 - `sv_playlist`: The ID of the playlist to be used for the gametype rotation.
 
-- `tempban_duration`: The duration of a temporary bans in minutes.
+- `tempban_duration`: The duration of a temporary bans in minutes. (The server will automatically issue temporary bans to players found using specific exploits.)
 
 ## Playlists
 Playlists are defined in the `playlists.info` file located in the `machinecfg` folder. This file determines the map and game mode rotation for your server. Each playlist is identified by a unique number. The `party_minplayers` rule specifies the minimum number of players required for a match to start.
