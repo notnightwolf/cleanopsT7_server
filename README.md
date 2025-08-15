@@ -11,6 +11,8 @@ This patch is designed to be inclusive, allowing players who spoof their DLCs to
 
 - The server will automatically restart itself if it crashes with an exception. An `exceptionlog` file will be created inside the `cleanops` folder.
 
+![preview](https://github.com/notnightwolf/cleanopsT7_server/blob/main/preview.jpg)
+
 ## Installation
 -   Open your Steam client, navigate to Library, and under the Tools tab,<br>
     find and download **Call of Duty: Black Ops III - Unranked Dedicated Server**.
